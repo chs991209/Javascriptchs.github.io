@@ -1,4 +1,4 @@
-function hasDuplicateValue(aarray) {
+function hasDuplicateValue(array) {
     var existingNumbers = []
     for(var i = 0; i < array.length; i++) {
         if(existingNumbers[array[i]] ===undefined) {
